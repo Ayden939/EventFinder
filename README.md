@@ -1,6 +1,4 @@
-The overall goal is to create an event finder app as described in class and based off of our sprints. Our sprint backlog is located here: 
-https://uafs-my.sharepoint.com/:x:/g/personal/chickm00_uafs_edu/EZMiT9t7-vBCkI2S7M_SeSYBZTojU0lNV5CmcBDNzQQPEw?e=w217R3
-
+The overall goal is to create an event finder app as described in class and based off of our sprints. Our sprint backlog is located in /docs/Event_App_Backlog.pdf (which you need to open outside of a text editor to view).
 # EventFinderApp Project Instructions
 
 ## Overview
