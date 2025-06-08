@@ -1,0 +1,50 @@
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="card text-white bg-primary mb-3" style="max-width: 700px; width: 100%;">
+                <h2 class="card-header">User Registration</h2>
+                <div class="card-body">
+                <form method="POST" action="controller.php?page=userReg">
+
+                  <!-- Username -->
+                  <div>
+                      <label for="username" class="form-label" >Username:</label><br>
+                      <input class="form-control" type="text" id="username" name="username" required>
+                  </div>
+                  <!-- First Name -->
+                  <div>
+                    <label for="firstName" class="form-label" style="margin-top: 15px;">First Name:</label><br>
+                    <input class="form-control" type="text" id="firstname" name="firstname" required />
+                  </div>
+
+                  <!-- Last Name -->
+                  <div>
+                    <label for="lastname" class="form-label" style="margin-top: 15px;">Last Name:</label><br>
+                    <input class="form-control" type="text" id="lastname" name="lastname" required />
+                  </div>
+
+                  <!-- Email -->
+                  <div>
+                    <label for="email" class="form-label" style="margin-top: 15px;">Email:</label><br>
+                    <input class="form-control" type="email" id="email" name="email" required />
+                  </div>
+
+                  <!-- Password -->
+                  <div>
+                    <label for="password" class="form-label" style="margin-top: 15px;">Password:</label><br>
+                    <input class="form-control" type="password" id="password" name="password" required />
+                  </div>
+
+                  <!-- Confirm Password -->
+                  <div>
+                    <label for="confirmPassword" class="form-label" style="margin-top: 15px;">Confirm Password:</label><br>
+                    <input class="form-control" type="password" id="confirmPassword" name="confirmPassword" required />
+                  </div>
+
+                  <div class="d-flex gap-3">
+                    <button type="submit" class="btn btn-secondary" style="margin-top: 15px;">Register</button>
+                  </div>
+                </form>
+        </div>
+      </div>

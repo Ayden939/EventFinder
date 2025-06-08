@@ -1,0 +1,51 @@
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="card text-white bg-primary mb-3" style="max-width: 700px; width: 100%;">
+                <h2 class="card-header">Register an Event</h2>
+                <div class="card-body">
+                    <form method="POST" action="controller.php?page=eventReg">
+                        <div>
+                            <label for="title" class="form-label">Event Title:</label><br>
+                            <input type="text" name="title" class="form-control" id="title" required>
+                        </div>
+                        <div>
+                            <label for="descr" class="form-label" style="margin-top: 15px;">Event Description:</label><br>
+                            <textarea class="form-control" name="descr" id="descr" rows="3" required></textarea>
+                        </div>
+                        <div>
+                            <label for="event_date" class="form-label" style="margin-top: 15px;">Event Date:</label><br>
+                            <input type="date" name="event_date" class="form-control" id="event_date" required>
+                        </div>
+                        <div>
+                            <label for="event_time" class="form-label" style="margin-top: 15px;">Event Time:</label><br>
+                            <input type="time" name="event_time" class="form-control" id="event_time" required>
+                        </div>
+                        <div>
+                            <label for="event_loc" class="form-label" style="margin-top: 15px;">Event Location:</label><br>
+                            <input type="text" name="event_loc" class="form-control" id="event_loc" required>
+                        </div>
+                        <label for="category" style="margin-top: 15px;">Category</label>
+                            <select class="form-select mb-3" name="category">
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="Family Friendly">Family Friendly</option>
+                                <option value="21 & older">21 & older</option>
+                                <option value="Outdoor">Outdoor</option>
+                                <option value="Indoor">Indoor</option>
+                                <option value="Food">Food</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Music">Music</option>
+                                <option value="Free">Free</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        <div class="d-flex gap-3">
+                            <button type="submit" class="btn btn-primary">Register Event</button>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            </div>
+</div>
+
