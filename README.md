@@ -1,4 +1,4 @@
-The overall goal is to create an event finder app as described in class and based off of our sprints. Our sprint backlog is located in /docs/Event_App_Backlog.pdf (which you need to open outside of a text editor to view).
+The overall goal is to create an event finder app as described in class and based off of our sprints. Our sprint backlog is located in /docs/Event_App_Backlog.pdf (Note: Open the PDF with a PDF viewer, not a text editor).
 # EventFinderApp Project Instructions
 
 ## Overview
