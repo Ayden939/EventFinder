@@ -152,3 +152,9 @@ Ensure you have the following installed:
     ```bash
     http://localhost:8000
     ```
+
+Project Contributors:
+www.linkedin.com/in/chickm00
+www.linkedin.com/in/c-m-x/
+www.linkedin.com/in/ayden-haslam-44bz
+https://github.com/Pibb-Xtra-Pls/
